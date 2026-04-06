@@ -294,7 +294,7 @@ header{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background:transparent;
+    background-color: white;
     top: 30px;
     left: 45px;
 }
@@ -320,7 +320,7 @@ header{
     margin-top: -50px;
     margin-left: 20px;
     z-index:999;
-    background-color:white;
+    background:transparent;
 }
 
 .nomcategorie img{
@@ -332,7 +332,7 @@ header{
     list-style: none;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: gray;
     border-radius: 10px;
     padding-bottom: 10px;
     padding-top: 20px;
@@ -357,6 +357,10 @@ header{
     background-color:rgba(23, 8, 87, 0.8) ;
     box-shadow: 1px 1px 10px 1px silver;
     color: white;
+}
+
+.nomcategorie li:hover span{
+    border: 2px solid rgba(23, 8, 87, 0.8);
 }
 
 .nomcategorie p{
@@ -934,9 +938,11 @@ header{
     height:15px;
     border-radius:50%;
     background-color:gold;
-    left:90%;
-    top:-10px;
+    left:95%;
+    top:-6px;
+    transition: .3s ease;
     border:2px solid white;
+    opacity:0;
 }
 
 .ensemblecategorie span{

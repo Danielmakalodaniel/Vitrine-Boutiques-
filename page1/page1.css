@@ -3,7 +3,7 @@
 body{
     background-color: white;
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Romain', sans-serif;
     position: relative;
     height:100%;
 }
@@ -564,7 +564,7 @@ header{
     box-shadow: 1px 1px 10px 1px silver;
 }
 
-.action button{
+.det{
    margin-top:25px;
    margin-left:20px;
    width:70px;
@@ -577,7 +577,7 @@ header{
    background-color: white;
 }
 
-.action button:hover{
+.det:hover{
     background-color:rgba(23, 8, 87, 0.75);
     color:white;
 }
@@ -1062,7 +1062,7 @@ iframe{
 
 footer{
     margin-top:100px;
-    height:auto;
+    height:100vh;
     background-color:black;
     color:white;
     margin-bottom:0;
@@ -1126,4 +1126,44 @@ footer img{
 
 .tel a:hover{
     color:rgba(23, 8, 87, 0.9);
+}
+
+.confidantilalite{
+    margin-top:100px;
+    display:flex;
+    justify-content:space-between;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:10px;
+}
+
+.confidantilalite a{
+    text-decoration:none;
+    color:white;
+}
+
+hr{
+    margin-left:20px;
+    margin-right:20px;
+    background-color:silver;
+}
+
+.copy{
+    text-align:center;
+    margin-top:100px;
+}
+
+.nouv{
+    margin-top:25px;
+   margin-left:10px;
+   width:70px;
+   height:30px;
+   font-weight:bold;
+   border:0;
+   border-radius:10px;
+   transition: .3s ease;
+   cursor:pointer;
+   background-color: gold;
+   color:white;
+   opacity:0;
 }
